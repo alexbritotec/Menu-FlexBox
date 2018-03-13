@@ -1,0 +1,141 @@
+body {
+    background: #000;
+}
+h1 {
+    color: #F1C40F;
+    text-align: center;
+}
+nav {
+    background: #191818;
+    max-width: 800px;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul a {
+    display: block;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav ul a:hover {
+    background: #F1C40F;
+}
+@media (max-width:550px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul a {
+        text-align: center;
+    }
+}
+/* Menu 2 */
+
+#rojo {
+    color: #C0392B;
+    text-align: center;
+}
+.menu2 {
+    background: #191818;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.menu2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 ul a {
+    display: block;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+.menu2 ul a:hover {
+    background: #C0392B;
+}
+@media (max-width:550px) {
+    .menu2 ul {
+        flex-direction: column;
+    }
+    .menu2 ul a {
+        text-align: center;
+    }
+}
+/* Menu 3 */
+
+#verde {
+    color: #28B463;
+    text-align: center;
+}
+.menu3 {
+    background: #191818;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.menu3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu3 ul a {
+    display: block;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+.menu3 ul a:hover {
+    background: #28B463;
+}
+@media (max-width:550px) {
+    .menu3 ul {
+        flex-direction: column;
+    }
+    .menu3 ul a {
+        text-align: center;
+    }
+}
+/* Menu 4 */
+
+#violeta {
+    color: #8E44AD;
+    text-align: center;
+}
+.menu4 {
+    background: #191818;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.menu4 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu4 ul a {
+    display: block;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+.menu4 ul a:hover {
+    background: #8E44AD;
+}
+@media (max-width:550px) {
+    .menu4 ul {
+        flex-direction: column;
+    }
+    .menu4 ul a {
+        text-align: center;
+    }
+}
